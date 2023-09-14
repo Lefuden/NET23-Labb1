@@ -18,12 +18,10 @@ namespace MyFirstProgram
                 Console.WriteLine("Oj. Lågt tal!");
             }
 
-            //initiate variable for input. Ask user's name, add input to yourName. Output message containing the user's name.
-            string yourName;
-
+            //Ask user's name, initiate variable and add input to yourName. Output message containing the user's name.
             Console.WriteLine("\nVad heter du?");
             Console.Write(">");
-            yourName = Console.ReadLine();
+            string yourName = Console.ReadLine();
 
             Console.WriteLine($"Hej {yourName}!\n");
 
